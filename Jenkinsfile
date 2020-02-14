@@ -1,7 +1,8 @@
 pipeline {
     agent any
     stages {
-        steps("Build") {
+        stage("Build") {
+        steps {
             sh "echo 'simulando um build'"
         }
     } 
