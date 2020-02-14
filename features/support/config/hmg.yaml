@@ -1,12 +1,12 @@
 ---
-url: "http://nflix.papito.io"
+url: "http://localhost"
 database:
   host: "104.237.137.68"
   dbname: "nflix"
   user: "postgres"
   password: "qaninja"
 api:
-  movies: "http://api.nflix.papito.io:3002"
+  movies: "http://localhost:3002"
 users:
   cat_manager:
       email: "tony@stark.com"
